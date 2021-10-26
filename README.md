@@ -6,6 +6,6 @@ com foco em IOT.
 Projeto: Controle de vagas em um estacionamento
 
 Componentes:
-Airton Serra
-Hérson Rezende
-Virginia Lucia Pinto
+* Airton Serra
+* Hérson Rezende
+* Viginia Lucia Pinto
