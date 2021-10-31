@@ -9,6 +9,8 @@ Componentes:
 * Airton Serra
 * Hérson Rezende
 * Viginia Lucia Pinto
+![Screenshot](screenshot.png)
+
 
 Imagens   | Prototipo
 --------- | ------
