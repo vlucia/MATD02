@@ -1,0 +1,1218 @@
+{
+  "id": "63c9d2ff-3808-4553-94cf-65b99b319721",
+  "clientId": "mqttx_823c0803",
+  "name": "MATD02",
+  "clean": true,
+  "protocol": "mqtt",
+  "host": "192.168.3.93",
+  "port": 1883,
+  "keepalive": 60,
+  "connectTimeout": 10,
+  "reconnect": false,
+  "username": "",
+  "password": "",
+  "path": "/mqtt",
+  "certType": "",
+  "ssl": false,
+  "mqttVersion": "3.1.1",
+  "unreadMessageCount": 0,
+  "clientIdWithTime": false,
+  "parentId": null,
+  "orderId": null,
+  "rejectUnauthorized": true,
+  "ca": "",
+  "cert": "",
+  "key": "",
+  "isCollection": false,
+  "createAt": "2021-10-31T14:51:16.621Z",
+  "updateAt": "2021-10-31T14:51:16.621Z",
+  "messages": [
+    {
+      "id": "4c5dad4c-7edb-44c0-b88d-fa112d75da53",
+      "out": false,
+      "createAt": "2021-10-31 12:02:03:732",
+      "topic": "topic/sensing",
+      "payload": "84.3299",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "e26ff639-a361-4729-95d9-e4dd9d087803",
+      "out": false,
+      "createAt": "2021-10-31 12:02:09:851",
+      "topic": "topic/sensing",
+      "payload": "84.79382",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "d898da1c-a3a0-4f6a-b0c6-9c549bf1919c",
+      "out": false,
+      "createAt": "2021-10-31 12:02:16:273",
+      "topic": "topic/sensing",
+      "payload": "4.725086",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "588a62e6-e68f-4eb2-b22a-a554b747ae4d",
+      "out": false,
+      "createAt": "2021-10-31 12:02:22:260",
+      "topic": "topic/sensing",
+      "payload": "83.93471",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "7d92f690-c2d4-4073-95bd-3d9925070b33",
+      "out": false,
+      "createAt": "2021-10-31 12:02:28:333",
+      "topic": "topic/sensing",
+      "payload": "27.38832",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "5258656b-33fd-4beb-97e0-ff6d1ae12702",
+      "out": false,
+      "createAt": "2021-10-31 12:02:34:373",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "3a14ace5-9541-48bb-a739-e56a291dcf2f",
+      "out": false,
+      "createAt": "2021-10-31 12:02:40:436",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "d58c06a8-2564-495b-8241-6f1e08b6a401",
+      "out": false,
+      "createAt": "2021-10-31 12:02:46:585",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f6f18235-d675-47f8-80fa-279306eb10eb",
+      "out": false,
+      "createAt": "2021-10-31 12:02:52:539",
+      "topic": "topic/sensing",
+      "payload": "1.065292",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "a8ecfe64-0046-4e98-ae74-b54315a2200c",
+      "out": false,
+      "createAt": "2021-10-31 12:02:58:585",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f170e499-48c4-4792-bfd5-76eb279661db",
+      "out": false,
+      "createAt": "2021-10-31 12:03:04:646",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "634e250a-dc82-4064-b707-354b98f94798",
+      "out": false,
+      "createAt": "2021-10-31 12:03:10:701",
+      "topic": "topic/sensing",
+      "payload": "26.83849",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "cc1a055c-45b0-4c25-9101-5e0fc828b2ba",
+      "out": false,
+      "createAt": "2021-10-31 12:03:16:902",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "fa010f6a-4a7c-49e6-82d9-17fd83dca57f",
+      "out": false,
+      "createAt": "2021-10-31 12:03:22:814",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "808214cf-42d3-4d28-bac4-46321afb2753",
+      "out": false,
+      "createAt": "2021-10-31 12:03:28:875",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "a05a92fd-8bb1-4f26-956c-642719daff49",
+      "out": false,
+      "createAt": "2021-10-31 12:03:35:021",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "5ef1564e-335e-4347-85e6-aa78e9e30601",
+      "out": false,
+      "createAt": "2021-10-31 12:03:40:985",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "52a9d142-19c2-4dae-ba1a-d8abbe355e0d",
+      "out": false,
+      "createAt": "2021-10-31 12:03:47:078",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "d5547dd1-f081-4afb-b676-587f0f26f048",
+      "out": false,
+      "createAt": "2021-10-31 12:03:53:121",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "acd7f9bc-3121-4527-9771-57560790f915",
+      "out": false,
+      "createAt": "2021-10-31 12:03:59:156",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "ab039541-f36f-4844-9afb-704aee976d01",
+      "out": false,
+      "createAt": "2021-10-31 12:04:05:330",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8cf1fc19-8ec3-41c9-ab1d-bfc2bcaa21b8",
+      "out": false,
+      "createAt": "2021-10-31 12:04:11:277",
+      "topic": "topic/sensing",
+      "payload": "26.83849",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4b2f283c-c8ea-4b43-a31f-8a2f883dda5f",
+      "out": false,
+      "createAt": "2021-10-31 12:04:17:316",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "b05bc661-8108-49d1-a24c-d10a4f36fa07",
+      "out": false,
+      "createAt": "2021-10-31 12:04:23:378",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "cbc0eea2-d4d4-44d5-862d-0cdb9034224c",
+      "out": false,
+      "createAt": "2021-10-31 12:04:29:514",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "3fc782bb-0aec-4001-9d49-7189a6eb78ec",
+      "out": false,
+      "createAt": "2021-10-31 12:04:35:517",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "b3962c33-e9ec-4a2a-add7-3b83205c2852",
+      "out": false,
+      "createAt": "2021-10-31 12:04:41:546",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "de0a7bfe-88c9-40e6-bfd6-5ebc81937647",
+      "out": false,
+      "createAt": "2021-10-31 12:04:47:598",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "e806f25a-4476-41ab-b311-e22e359ef387",
+      "out": false,
+      "createAt": "2021-10-31 12:04:53:665",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "554a20f9-f4e8-4703-b5b3-8af021001d35",
+      "out": false,
+      "createAt": "2021-10-31 12:05:00:719",
+      "topic": "topic/sensing",
+      "payload": "-0.03436426",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "92219e48-c087-4354-8cdb-520504664339",
+      "out": false,
+      "createAt": "2021-10-31 12:05:06:782",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "3c2a6815-773f-4e3c-a248-513ebfd18d14",
+      "out": false,
+      "createAt": "2021-10-31 12:05:12:890",
+      "topic": "topic/sensing",
+      "payload": "26.89003",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "9995f1f7-a43c-40ac-a4e7-0df8f8bc7c5d",
+      "out": false,
+      "createAt": "2021-10-31 12:05:18:902",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "68a169f2-3005-4bd5-a767-bf783f329ea7",
+      "out": false,
+      "createAt": "2021-10-31 12:05:24:960",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "487ff054-c6b4-4df5-ac72-ea91332912e3",
+      "out": false,
+      "createAt": "2021-10-31 12:05:31:020",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "7d33cb1a-e7a6-4701-8557-a10b8aa2c46f",
+      "out": false,
+      "createAt": "2021-10-31 12:05:37:070",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "eec6639e-ccc5-4091-a4b9-d89c4fef8c49",
+      "out": false,
+      "createAt": "2021-10-31 12:05:43:220",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "341f29df-cab3-44fc-89f9-90313c2921d4",
+      "out": false,
+      "createAt": "2021-10-31 12:05:49:196",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "419766d8-8c9e-4422-9af7-4b172ce07585",
+      "out": false,
+      "createAt": "2021-10-31 12:05:55:238",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8839ab63-824c-456d-95c5-1bf58b2c048c",
+      "out": false,
+      "createAt": "2021-10-31 12:06:01:326",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "39ebf99f-5d02-4e08-8ec5-2789c787a916",
+      "out": false,
+      "createAt": "2021-10-31 12:06:07:365",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "65b9b49e-f85b-4a5d-a73e-669dbf36caab",
+      "out": false,
+      "createAt": "2021-10-31 12:06:12:411",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "24cbe56c-bf67-4cd3-817c-8ea2d40541ad",
+      "out": false,
+      "createAt": "2021-10-31 12:06:18:451",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "9294d423-32ba-4429-92dc-60244f42ec33",
+      "out": false,
+      "createAt": "2021-10-31 12:06:24:530",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "dc4fecb9-beb4-490d-afc8-21bb9fdd5b06",
+      "out": false,
+      "createAt": "2021-10-31 12:06:30:575",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "3dd8afe3-8e39-4487-8091-de2f46c5bbbb",
+      "out": false,
+      "createAt": "2021-10-31 12:06:36:656",
+      "topic": "topic/sensing",
+      "payload": "24.96564",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "e8fd0c0a-dd3c-4405-ab18-efa6f551cf55",
+      "out": false,
+      "createAt": "2021-10-31 12:06:42:818",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "71e48570-9fc9-4ed9-b4c3-22ddf2d0e0b8",
+      "out": false,
+      "createAt": "2021-10-31 12:06:48:859",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "b808953b-f749-4535-b0b5-f9732f203bc0",
+      "out": false,
+      "createAt": "2021-10-31 12:06:54:801",
+      "topic": "topic/sensing",
+      "payload": "26.89003",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "1bc8dde3-9079-453e-b864-ef715f747673",
+      "out": false,
+      "createAt": "2021-10-31 12:07:00:855",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "19e9f382-24cf-4886-b0b6-d6992ded889f",
+      "out": false,
+      "createAt": "2021-10-31 12:07:06:976",
+      "topic": "topic/sensing",
+      "payload": "57.43986",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "77292d0f-9c6c-4124-8193-aecf488a2b35",
+      "out": false,
+      "createAt": "2021-10-31 12:07:12:992",
+      "topic": "topic/sensing",
+      "payload": "26.87285",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "de182afc-c51a-4b01-a210-d9943e956632",
+      "out": false,
+      "createAt": "2021-10-31 12:07:19:040",
+      "topic": "topic/sensing",
+      "payload": "26.85567",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "df8d2eca-c1d1-40a5-ac61-f43b4c4ca814",
+      "out": false,
+      "createAt": "2021-10-31 12:07:25:209",
+      "topic": "topic/sensing",
+      "payload": "26.89003",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "6f0eedb8-952b-4df8-8f9d-07762e95a58c",
+      "out": false,
+      "createAt": "2021-10-31 12:07:31:151",
+      "topic": "topic/sensing",
+      "payload": "26.89003",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4c73f064-4f58-4791-a6d5-0913a31eb6e3",
+      "out": false,
+      "createAt": "2021-10-31 12:07:37:244",
+      "topic": "topic/sensing",
+      "payload": "84.36426",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "6b8812e5-7702-46f3-ae0e-76160b711e3e",
+      "out": false,
+      "createAt": "2021-10-31 12:07:43:336",
+      "topic": "topic/sensing",
+      "payload": "83.96907",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "53c459a9-6106-46cb-a97a-cf71433aa44d",
+      "out": false,
+      "createAt": "2021-10-31 12:07:48:387",
+      "topic": "topic/sensing",
+      "payload": "84.39862",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "30f2032f-f36b-44ac-a2ce-5d24a332fc90",
+      "out": false,
+      "createAt": "2021-10-31 12:07:54:481",
+      "topic": "topic/sensing",
+      "payload": "84.79382",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4b90eeb8-fc17-45c3-9539-951d93952b9b",
+      "out": false,
+      "createAt": "2021-10-31 12:08:00:587",
+      "topic": "topic/sensing",
+      "payload": "83.10996",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4d874d13-ae6f-4105-be54-a62225e88c30",
+      "out": false,
+      "createAt": "2021-10-31 12:08:06:668",
+      "topic": "topic/sensing",
+      "payload": "8.281787",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "abd98188-45b8-4868-ae6b-b2120ac3a28e",
+      "out": false,
+      "createAt": "2021-10-31 12:08:12:409",
+      "topic": "topic/sensing",
+      "payload": "5.32646",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "95970032-465d-4014-b86c-82c59c1f51ef",
+      "out": false,
+      "createAt": "2021-10-31 12:08:18:541",
+      "topic": "topic/sensing",
+      "payload": "83.53952",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "29743a6f-1544-4386-ad59-fee24cd9a7ec",
+      "out": false,
+      "createAt": "2021-10-31 12:08:24:706",
+      "topic": "topic/sensing",
+      "payload": "95.63574",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "981211c4-d161-47d9-b09d-b85509680f12",
+      "out": false,
+      "createAt": "2021-10-31 12:08:30:707",
+      "topic": "topic/sensing",
+      "payload": "84.38144",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f85831cf-661e-4e44-a565-5bc86adb24f1",
+      "out": false,
+      "createAt": "2021-10-31 12:08:36:891",
+      "topic": "topic/sensing",
+      "payload": "84.41581",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "6fdb40bb-de0a-4abb-8908-0e64f1a23a96",
+      "out": false,
+      "createAt": "2021-10-31 12:08:42:882",
+      "topic": "topic/sensing",
+      "payload": "83.95189",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "25d09074-a646-45fc-9f0c-09fd8d63888a",
+      "out": false,
+      "createAt": "2021-10-31 12:08:48:955",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "61d4d871-737e-423a-9901-d67262031f39",
+      "out": false,
+      "createAt": "2021-10-31 12:08:55:117",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "fa4bdbf8-b38a-4ed4-a311-9e1bb750a22d",
+      "out": false,
+      "createAt": "2021-10-31 12:09:01:140",
+      "topic": "topic/sensing",
+      "payload": "84.39862",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "11fd4b1b-f1cb-4d9d-8e11-d53222ec206f",
+      "out": false,
+      "createAt": "2021-10-31 12:09:07:183",
+      "topic": "topic/sensing",
+      "payload": "84.39862",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "02a030b6-7a16-4760-8cf2-874e3dc1feb4",
+      "out": false,
+      "createAt": "2021-10-31 12:09:13:268",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "900ae55d-d965-49dc-90f3-d31685943ed4",
+      "out": false,
+      "createAt": "2021-10-31 12:09:19:358",
+      "topic": "topic/sensing",
+      "payload": "83.96907",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f6d1ebca-64b6-454a-972c-30e06ab406bb",
+      "out": false,
+      "createAt": "2021-10-31 12:09:24:512",
+      "topic": "topic/sensing",
+      "payload": "84.41581",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8a7d1571-350e-4549-a02d-984f4b893793",
+      "out": false,
+      "createAt": "2021-10-31 12:09:30:510",
+      "topic": "topic/sensing",
+      "payload": "84.38144",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "5c0adde1-b7ec-4a8e-a82d-a9b44faaa933",
+      "out": false,
+      "createAt": "2021-10-31 12:09:36:693",
+      "topic": "topic/sensing",
+      "payload": "83.62543",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8cf365d6-e58a-449c-84a0-6eb9c2621bff",
+      "out": false,
+      "createAt": "2021-10-31 12:09:42:677",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "61affeab-b17c-4bfb-aa4b-88a51e97b209",
+      "out": false,
+      "createAt": "2021-10-31 12:09:48:774",
+      "topic": "topic/sensing",
+      "payload": "84.38144",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8c08a968-fa59-4c51-b2e1-2d332719fd1e",
+      "out": false,
+      "createAt": "2021-10-31 12:09:55:004",
+      "topic": "topic/sensing",
+      "payload": "6.735395",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "527bc404-b3e5-4070-a81b-9cd7f4f5dca2",
+      "out": false,
+      "createAt": "2021-10-31 12:10:01:181",
+      "topic": "topic/sensing",
+      "payload": "89.94845",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "bef35026-cbd8-4e01-9754-3aee7c02d796",
+      "out": false,
+      "createAt": "2021-10-31 12:10:07:213",
+      "topic": "topic/sensing",
+      "payload": "204.0722",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "618c82d8-440f-4f99-aef3-bcb95feca58b",
+      "out": false,
+      "createAt": "2021-10-31 12:10:13:265",
+      "topic": "topic/sensing",
+      "payload": "87.01031",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "c17ba3e8-2d8a-4ed0-a193-bbec65618989",
+      "out": false,
+      "createAt": "2021-10-31 12:10:19:407",
+      "topic": "topic/sensing",
+      "payload": "86.97595",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f896eaee-d92b-48eb-b6b8-35b8d86d1bf7",
+      "out": false,
+      "createAt": "2021-10-31 12:10:24:520",
+      "topic": "topic/sensing",
+      "payload": "88.23024",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "7ff54e25-f627-4bd7-bb77-b15f6f6f5f7b",
+      "out": false,
+      "createAt": "2021-10-31 12:10:30:502",
+      "topic": "topic/sensing",
+      "payload": "89.07217",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "5063db13-8720-4e96-8726-5ca8e650e069",
+      "out": false,
+      "createAt": "2021-10-31 12:10:37:124",
+      "topic": "topic/sensing",
+      "payload": "3.865979",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "98f54483-b18f-4969-95c1-4f49e4bdb5f1",
+      "out": false,
+      "createAt": "2021-10-31 12:10:42:423",
+      "topic": "topic/sensing",
+      "payload": "36.54639",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "0a7b43e8-26b6-4bad-bdf9-acd220355e30",
+      "out": false,
+      "createAt": "2021-10-31 12:10:48:467",
+      "topic": "topic/sensing",
+      "payload": "34.50172",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "be02b16e-457d-4980-afe1-7f258ed357a6",
+      "out": false,
+      "createAt": "2021-10-31 12:10:54:648",
+      "topic": "topic/sensing",
+      "payload": "34.07216",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "d1f4511c-6473-43eb-96de-51c91b39b980",
+      "out": false,
+      "createAt": "2021-10-31 12:11:00:580",
+      "topic": "topic/sensing",
+      "payload": "33.65979",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "1df70be9-7efa-4b05-b844-39b78a658d16",
+      "out": false,
+      "createAt": "2021-10-31 12:11:06:684",
+      "topic": "topic/sensing",
+      "payload": "83.93471",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "10ed5213-90b8-4dc5-9097-712e23a80c0f",
+      "out": false,
+      "createAt": "2021-10-31 12:11:12:859",
+      "topic": "topic/sensing",
+      "payload": "83.52234",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "66310343-012b-4f47-9e5b-b4ee38b661dc",
+      "out": false,
+      "createAt": "2021-10-31 12:11:18:905",
+      "topic": "topic/sensing",
+      "payload": "83.93471",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "ac70fc51-0dbb-40a8-b8ef-b52d28bcb63e",
+      "out": false,
+      "createAt": "2021-10-31 12:11:25:039",
+      "topic": "topic/sensing",
+      "payload": "83.93471",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "45a5414c-42f9-44f1-87a8-aecde0919f76",
+      "out": false,
+      "createAt": "2021-10-31 12:11:30:991",
+      "topic": "topic/sensing",
+      "payload": "80.4811",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "a4b74a84-4e02-4dd5-8c86-ebce0c6c9d5b",
+      "out": false,
+      "createAt": "2021-10-31 12:11:37:101",
+      "topic": "topic/sensing",
+      "payload": "84.79382",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "d321d6b6-5618-45a5-9f4c-47a0c87f9e14",
+      "out": false,
+      "createAt": "2021-10-31 12:11:43:218",
+      "topic": "topic/sensing",
+      "payload": "83.95189",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "859d155e-4444-4cc3-9c8a-1be70fdef68e",
+      "out": false,
+      "createAt": "2021-10-31 12:11:49:238",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "3695d74e-bc14-4e74-be27-40ef7c3a599e",
+      "out": false,
+      "createAt": "2021-10-31 12:11:55:542",
+      "topic": "topic/sensing",
+      "payload": "83.96907",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "2b81cace-84a5-4996-ba58-c6467a6e9371",
+      "out": false,
+      "createAt": "2021-10-31 12:12:00:475",
+      "topic": "topic/sensing",
+      "payload": "84.41581",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "059a61f5-39df-4b72-917f-cc96374074ca",
+      "out": false,
+      "createAt": "2021-10-31 12:12:06:496",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f9da3126-1d28-4ebd-ac9a-32a2b48f5917",
+      "out": false,
+      "createAt": "2021-10-31 12:12:12:570",
+      "topic": "topic/sensing",
+      "payload": "95.92784",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "309f863c-93d2-42b6-9228-c26cd28e7b92",
+      "out": false,
+      "createAt": "2021-10-31 12:12:18:684",
+      "topic": "topic/sensing",
+      "payload": "84.00344",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "90a902ac-a1c8-4435-8b3d-1deba421cf5c",
+      "out": false,
+      "createAt": "2021-10-31 12:12:24:750",
+      "topic": "topic/sensing",
+      "payload": "84.84536",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "bcc0a36d-4db3-42dd-93bf-58349f10c49e",
+      "out": false,
+      "createAt": "2021-10-31 12:12:30:823",
+      "topic": "topic/sensing",
+      "payload": "83.59107",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "34f2d043-cc39-4b61-bae6-62e16cd62d43",
+      "out": false,
+      "createAt": "2021-10-31 12:12:36:912",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "f199e11a-3ef0-4b54-95a3-cbcfd636ccd5",
+      "out": false,
+      "createAt": "2021-10-31 12:12:43:013",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4004ee62-abdb-449b-a5d3-d01d39e2c3ca",
+      "out": false,
+      "createAt": "2021-10-31 12:12:49:083",
+      "topic": "topic/sensing",
+      "payload": "84.39862",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "a9de8db5-a456-4d3d-9fde-3c2ccfed415d",
+      "out": false,
+      "createAt": "2021-10-31 12:12:55:261",
+      "topic": "topic/sensing",
+      "payload": "83.59107",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "cd93a062-a00e-4317-ad83-b482d1b0f4f0",
+      "out": false,
+      "createAt": "2021-10-31 12:13:01:253",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "57fc8856-492e-44cb-b471-e8db4ba6ec04",
+      "out": false,
+      "createAt": "2021-10-31 12:13:07:448",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "875a7d91-7ddf-4e79-ade6-6ed9380fa76c",
+      "out": false,
+      "createAt": "2021-10-31 12:13:12:400",
+      "topic": "topic/sensing",
+      "payload": "84.38144",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "cd969e74-0a48-4829-b53d-370e7056deb9",
+      "out": false,
+      "createAt": "2021-10-31 12:13:18:614",
+      "topic": "topic/sensing",
+      "payload": "83.96907",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "12793f59-b062-4158-a4dd-fae090adbf23",
+      "out": false,
+      "createAt": "2021-10-31 12:13:24:652",
+      "topic": "topic/sensing",
+      "payload": "98.93471",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "27b0abef-2d85-458f-a32d-b92c5929b1e8",
+      "out": false,
+      "createAt": "2021-10-31 12:13:30:666",
+      "topic": "topic/sensing",
+      "payload": "84.39862",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "ad5d1ddd-30de-47e5-ac03-9c0168e2fca5",
+      "out": false,
+      "createAt": "2021-10-31 12:13:36:842",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4b24a0c4-a4d8-4dd2-8c21-9142095d930d",
+      "out": false,
+      "createAt": "2021-10-31 12:13:42:862",
+      "topic": "topic/sensing",
+      "payload": "84.00344",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "0745b132-ee7a-4e9c-8d86-990ef31e42c1",
+      "out": false,
+      "createAt": "2021-10-31 12:13:49:026",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "20fa95af-0daf-43c6-be26-def0703d1799",
+      "out": false,
+      "createAt": "2021-10-31 12:13:54:988",
+      "topic": "topic/sensing",
+      "payload": "106.6151",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "e759b982-99ed-4beb-aab3-0326c3483acb",
+      "out": false,
+      "createAt": "2021-10-31 12:14:01:066",
+      "topic": "topic/sensing",
+      "payload": "83.98625",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "721b7978-ffc5-4891-baed-eebd066e1374",
+      "out": false,
+      "createAt": "2021-10-31 12:14:07:253",
+      "topic": "topic/sensing",
+      "payload": "83.19588",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "200b1a3c-1244-4813-a7a9-697a84870446",
+      "out": false,
+      "createAt": "2021-10-31 12:14:13:274",
+      "topic": "topic/sensing",
+      "payload": "84.00344",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "10043b59-9186-46bd-bbf1-baf7f1c40286",
+      "out": false,
+      "createAt": "2021-10-31 12:14:19:539",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "c96cf466-8409-418e-a8bd-04748e0aea94",
+      "out": false,
+      "createAt": "2021-10-31 12:14:25:442",
+      "topic": "topic/sensing",
+      "payload": "83.1787",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "8e5a36da-ae9f-40b1-8e69-e56121cadd78",
+      "out": false,
+      "createAt": "2021-10-31 12:14:31:632",
+      "topic": "topic/sensing",
+      "payload": "ODMuNTIyMzQ=",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "dfe004fd-22ea-4749-94ce-eacb0bb5ef8b",
+      "out": false,
+      "createAt": "2021-10-31 12:14:37:585",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "4790e096-c314-403c-a3bb-0c0242ee89be",
+      "out": false,
+      "createAt": "2021-10-31 12:14:43:692",
+      "topic": "topic/sensing",
+      "payload": "83.57388",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "ff3c5227-1abd-4454-a755-6cd32301777f",
+      "out": false,
+      "createAt": "2021-10-31 12:14:49:734",
+      "topic": "topic/sensing",
+      "payload": "84.38144",
+      "qos": 0,
+      "retain": false
+    },
+    {
+      "id": "ae9b25f8-dc27-4bbc-b377-4c048e50a20c",
+      "out": false,
+      "createAt": "2021-10-31 12:14:55:816",
+      "topic": "topic/sensing",
+      "payload": "83.53952",
+      "qos": 0,
+      "retain": false
+    }
+  ],
+  "subscriptions": [
+    {
+      "topic": "topic/sensing",
+      "qos": 0,
+      "createAt": "2021-10-31 11:50:25:894",
+      "alias": "",
+      "color": "#B85B3A"
+    }
+  ],
+  "will": {
+    "id": "808f5f18-ea8a-479e-87ab-2c57ec8da254",
+    "lastWillTopic": "",
+    "lastWillPayload": "",
+    "lastWillQos": 0,
+    "lastWillRetain": false,
+    "willDelayInterval": null,
+    "payloadFormatIndicator": null,
+    "messageExpiryInterval": null,
+    "contentType": "",
+    "properties": {
+      "willDelayInterval": null,
+      "payloadFormatIndicator": null,
+      "messageExpiryInterval": null,
+      "contentType": ""
+    }
+  }
+}
