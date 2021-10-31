@@ -29,9 +29,8 @@ Sistemas utilizados:
 
 ! [Utilizaremos o sensor HCSR04 - Sensor Ultrasonico](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/how-ultrasonic-sensor-works-01.png?w=750&quality=100&strip=all&ssl=1)
 
-Prototipo  | 
----------  | ------
+Imagens   | .
+--------- | ------
 ![Circuito](midia/circuit.jpeg) |![Sensor](midia/sensor.jpeg)
 ![Processador](midia/processor.jpeg) |![RPBy3 - Server](midia/rpby3.jpeg)
 
-ThinkerCAD
