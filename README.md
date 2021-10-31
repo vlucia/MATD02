@@ -31,6 +31,6 @@ Sistemas utilizados:
 
 Imagens   | Prototipo
 --------- | ------
-![circuito](midia/circuit.png) |![Sensor](midia/sensor.png)
-![Processador](midia/processor.png) |![RPBy3 - Server](midia/rpby3.png)
+![Circuito](midia/circuit.jpeg) |![Sensor](midia/sensor.jpeg)
+![Processador](midia/processor.jpeg) |![RPBy3 - Server](midia/rpby3.jpeg)
 
