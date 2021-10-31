@@ -27,7 +27,7 @@ Sistemas utilizados:
 * HTML , CSS e JS
 
 
-! [Utilizaremos o sensor HCSR04 - Sensor Ultrasonico - Que Funciona conforme a imagem](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/how-ultrasonic-sensor-works-01.png?w=750&quality=100&strip=all&ssl=1)
+! [Utilizaremos o sensor HCSR04 - Sensor Ultrasonico](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/how-ultrasonic-sensor-works-01.png?w=750&quality=100&strip=all&ssl=1)
 
 Imagens   | Prototipo
 --------- | ------
