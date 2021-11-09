@@ -32,17 +32,9 @@
     </nav>
     <div class="content" id="content"></div>
   </div>
+  <script src="/socket.io/socket.io.js"></script>
   <script type="text/javascript" src='/javascripts/database.js'></script>
   <script type="text/javascript" src='/javascripts/app.js'></script>
-
-  <script src="/socket.io/socket.io.js"></script>
-  <script>
-    var socket = io();
-
-    socket.on('message', function (msg) {
-      console.log(msg);
-    });
-  </script>
 </body>
 
 </html>
