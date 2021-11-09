@@ -9,6 +9,17 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+const http = require('http');
+const server = http.createServer(app);
+const { Server } = require("socket.io");
+const io = new Server(server);
+var socket = null;
+
+//Socket beckend -> frontend
+io.on('connection', (socket) => {
+  console.log('a user connected');
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -39,13 +50,17 @@ client.on('connect', function () {
 
 client.on('message', function (topic, message) {
   // message is Buffer
-  console.log(message.toString())
+  io.emit('message', message.toString());
+  console.log(message.toString());
 })
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
 });
+
+
+//Socket de comunicação backend -> frontend
 
 // error handler
 app.use(function (err, req, res, next) {
@@ -58,4 +73,8 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+module.exports = {
+  app: app,
+  server: server
+
+}

@@ -22,7 +22,6 @@ function montarEstacionamento(){
     info.setAttribute("class", "informations");
 
     for(var i = 0; i < vagas.length; i++){
-        console.log('entrou');
         var card = document.createElement("div");
         var span = document.createElement("span");
         var img = document.createElement("img");
