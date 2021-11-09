@@ -22,13 +22,33 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+// Comunicação com o mqtt
+var mqtt = require('mqtt');
+var client = mqtt.connect('mqtt://projetoiot.ddns.net:1883');
+
+client.on('connect', function () {
+  client.subscribe('topic/sensing', function (err) {
+    if (!err) {
+      console.log("Conectado com sucesso!")
+    }
+    else {
+      console.log("Erro ao conectar com o mqtt: " + err)
+    }
+  })
+})
+
+client.on('message', function (topic, message) {
+  // message is Buffer
+  console.log(message.toString())
+})
+
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
