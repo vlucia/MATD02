@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #cc3300;
+    --color-text: #333333;
+    --bg2: #333333;
+    --bgPanel2: #434343;
+    --colorHeadings2: #7a1e00;
+    --colorText2: #B5B5B5;
+    --color-yellow: #ffc100;
+    --color-yellow2: #c09002;
+}
+
+body{
+    background-color: var(--bg);
+
+    align-items: center;
+    justify-items: center;
+
+    font-family: 'Montserrat';
+}
+
+h1{
+    margin: 0;
+    color: var(--color-headings);
+    font-size: 30px;
+}
+
+nav{
+    background-color: var(--bg);
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-headings);
+    padding-bottom: 5px;
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+}
+
+.container{
+    background-color: var(--bg);
+
+    padding: 20px;
+}
+
+.content{
+    background-color: var(--bg);
+    border: 1px solid var(--bg-panel);
+
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.vagas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.vaga-card{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    width: 100px;
+    height: 200px;
+
+    margin-right: 20px;
+
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-color: var(--color-yellow);
+}
+
+.vaga-card span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.informations{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*Esquemas responsivos*/
+@media screen and (max-width: 700px){
+    .vagas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;    
+    }
+}
+@media screen and (max-width: 270px){
+    .vagas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    
+    nav img{
+        display: none;
+    }
+}
