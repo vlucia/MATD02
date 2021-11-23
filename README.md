@@ -23,7 +23,6 @@ Lista de material  - Prototipo:
 * Fios jumper
 
 Sistemas utilizados:
-<<<<<<< HEAD
 * Broker mosquitto mqtt - Raspberry Pi 3B
 * Paho mqtt 
 * Python
@@ -32,17 +31,3 @@ Sistemas utilizados:
 ! [Utilizamos o sensor HCSR04 - Sensor de Distancia](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/how-ultrasonic-sensor-works-01.png?w=750&quality=100&strip=all&ssl=1)
 
 
-=======
-* Broker mosquitto mqtt  -- Raspberry Pi 3B
-* Paho mqtt 
-* Python
-* HTML, CSS, JS, NODE.JS
-* App Rodando na plataforma Heroku
-
-! [Utilizamos o sensor HCSR04 - Sensor de Distancia](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/06/how-ultrasonic-sensor-works-01.png?w=750&quality=100&strip=all&ssl=1)
-
-Imagens   | .
---------- | ------
-![Circuito](midia/circuit.png) |![Sensor](midia/sensor.png)
-![Processador](midia/processor.png) |![RPBy3 - Server](midia/rpby3.png)
->>>>>>> a03623f8249b1eb5e8c6270ee27e99d8c1b6451a
