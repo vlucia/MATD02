@@ -1,11 +1,3 @@
-const vagas = database;
-
-const carros = ["car1.png", "car2.png", "car3.png", "car4.png", "car5.png", "car6.png", "car7.png"];
-
-const limite = 55;
-
-var vagasLivres = 0;
-
 var socket = io();
 
 var app = {
@@ -32,29 +24,20 @@ var app = {
         info.setAttribute("id", "informations");
         info.setAttribute("class", "informations");
 
-        for (var i = 0; i < vagas.length; i++) {
+        for (var i = 0; i < 10; i++) {
             var card = document.createElement("div");
             var span = document.createElement("span");
             var img = document.createElement("img");
+            var vaga = (i < 5? "A" + (i+1) : "B" + (i-4));
 
-            card.setAttribute("id", `vaga-${vagas[i].code}`);
+            card.setAttribute("id", `vaga-${vaga}`);
             card.setAttribute("class", "vaga-card");
+            card.style.borderColor = "var(--color-yellow)";
 
-            span.setAttribute("id", `span-${vagas[i].code}`);
-            span.appendChild(document.createTextNode(vagas[i].code));
+            span.setAttribute("id", `span-${vaga}`);
+            span.appendChild(document.createTextNode(vaga));
 
-            img.setAttribute("id", `img-${vagas[i].code}`);
-
-            if (vagas[i].isFree == false) {
-                var random = Math.floor(Math.random() * carros.length);;
-                img.setAttribute("src", `images/${carros[random]}`);
-                card.style.borderColor = "#FF1515";
-                card.setAttribute("isFree", false);
-            }
-            else {
-                vagasLivres++;
-                card.setAttribute("isFree", true);
-            }
+            img.setAttribute("id", `img-${vaga}`);
 
             card.appendChild(span);
             card.appendChild(img);
@@ -62,7 +45,7 @@ var app = {
             divVagas.appendChild(card);
         }
 
-        info.appendChild(document.createTextNode("Quantidade de vagas livres: " + vagasLivres));
+        info.appendChild(document.createTextNode("Quantidade de vagas livres: " + 10));
 
         divContent.appendChild(divVagas);
 
@@ -79,45 +62,30 @@ var app = {
     },
 
     receberMensagemServidor: function () {
-        socket.on('message', function (msg) {
-            console.log(msg);
+        socket.on('message', function (data) {
+            var objData = JSON.parse(data);
 
-            var isFree = document.getElementById('vaga-A1').getAttribute('isFree');
-
-            if ((parseFloat(msg) <= limite && isFree === "true") || (parseFloat(msg) > limite && isFree === "false")) {
-                app.mudarStatusVaga("A1", 1);
-                for (var i = 1; i < vagas.length; i++) {
-                    app.mudarStatusVaga(vagas[i].code, i / 100 * 5)
-                }
-
-                document.getElementById('informations').innerHTML = `Quantidade de vagas livres: ${vagasLivres}`;
-            }
+            app.AtualizarVagas(objData.database);
+            document.getElementById('informations').innerHTML = `Quantidade de vagas livres: ${objData.vagasLivres}`;
+            console.log(JSON.parse(data));
         });
     },
 
-    mudarStatusVaga: function (code, chance) {
-        var randonFactor = Math.random();
-        
-        if(randonFactor <= chance){
-            var random = Math.floor(randonFactor * carros.length);
-            var card = document.getElementById(`vaga-${code}`);
-            var isFree = card.getAttribute('isFree');
-    
-            var img = document.getElementById(`img-${code}`);
+    AtualizarVagas: function (data) {
 
-            if (isFree === "true") {
-                img.setAttribute("src", `images/${carros[random]}`);
-                card.style.borderColor = "#FF1515";
-                card.setAttribute("isFree", false);
-                vagasLivres--;
-            }
-            else {
+        data.forEach(function (item, index) {
+            var card = document.getElementById(`vaga-${item.code}`);
+            var img = document.getElementById(`img-${item.code}`);
+            
+            if (item.isFree) {
                 img.setAttribute("src", "");
                 card.style.borderColor = "var(--color-yellow)";
-                card.setAttribute("isFree", true);
-                vagasLivres++;
             }
-        }
+            else{
+                img.setAttribute("src", `images/${item.img}`);
+                card.style.borderColor = "#FF1515";
+            }
+        });
     }
 }
 

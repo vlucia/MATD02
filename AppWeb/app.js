@@ -1,3 +1,58 @@
+var database = [
+  {
+    "code": "A1",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "A2",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "A3",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "A4",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "A5",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "B1",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "B2",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "B3",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "B4",
+    "isFree": true,
+    "img": null
+  },
+  {
+    "code": "B5",
+    "isFree": true,
+    "img": null
+  },
+];
+const carros = ["car1.png", "car2.png", "car3.png", "car4.png", "car5.png", "car6.png", "car7.png"];
+const limite = 9.4;
+var vagasLivres = 10;
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -16,6 +71,12 @@ const io = new Server(server);
 
 //Socket beckend -> frontend
 io.on('connection', (socket) => {
+  var objectToFront = {
+    vagasLivres: vagasLivres,
+    database: database
+  }
+
+  socket.emit('message', JSON.stringify(objectToFront));
   console.log('a user connected');
 });
 
@@ -48,10 +109,67 @@ client.on('connect', function () {
 })
 
 client.on('message', function (topic, message) {
-  // message is Buffer
-  io.emit('message', message.toString());
+
+  if ((parseFloat(message.toString()) <= limite && database[0].isFree) || (parseFloat(message.toString()) > limite && !database[0].isFree)) {
+    MudarStatusVaga(database[0], 1);
+    for (var i = 1; i < database.length; i++) {
+      MudarStatusVaga(database[i], i / 100 * 5)
+    }
+
+    var objectToFront = {
+      vagasLivres: vagasLivres,
+      database: database
+    }
+    
+    io.emit('message', JSON.stringify(objectToFront));
+  }
+
   console.log(message.toString());
 })
+
+
+
+function MudarStatusVaga(card, chance) {
+  var randonFactor = Math.random();
+
+  if (randonFactor <= chance) {
+    var random = Math.floor(randonFactor * carros.length);
+
+    if (card.isFree == true) {
+      card.img = carros[random];
+      card.isFree = false;
+      vagasLivres--;
+    }
+    else {
+      card.img = null;
+      card.isFree = true;
+      vagasLivres++;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
