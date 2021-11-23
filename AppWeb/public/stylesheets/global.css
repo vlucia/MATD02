@@ -8,11 +8,11 @@
 html{
     --bg: #FCFCFC;
     --bg-panel: #EBEBEB;
-    --color-headings: #33CE55;
+    --color-headings: #cc3300;
     --color-text: #333333;
     --bg2: #333333;
     --bgPanel2: #434343;
-    --colorHeadings2: #23903B;
+    --colorHeadings2: #7a1e00;
     --colorText2: #B5B5B5;
     --color-yellow: #ffc100;
     --color-yellow2: #c09002;
@@ -104,6 +104,21 @@ nav img{
 }
 
 /*Esquemas responsivos*/
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 700px){
+    .vagas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;    
+    }
+}
+@media screen and (max-width: 270px){
+    .vagas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    
+    nav img{
+        display: none;
+    }
 }
