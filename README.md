@@ -10,7 +10,7 @@ Projeto: Controle de vagas em um estacionamento.
 Componentes:
 * Airton Serra
 * Hérson Rezende
-* Viginia Lucia Pinto
+* Viginia L. Pinto
 
 Trata-se de um circuito simulado de controle de vagas de estacionamento.
 Sendo um sensor real e os demais virtuais.
